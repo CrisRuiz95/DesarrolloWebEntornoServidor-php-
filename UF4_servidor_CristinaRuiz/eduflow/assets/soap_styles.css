@@ -1,0 +1,50 @@
+:root{
+  --colorprincipal:#d82fd3; 
+  --colorsecundario: #33adbd; 
+  --colortitulo1: #107615; 
+  --colorpanel:#3a3a3a;
+  --sombra:0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+body {
+    font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif;
+    background: #d9d9d9;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size:60px;
+    color: var(--colortitulo1);
+}
+
+.tabla-tareas {
+    width: 95%;
+     table-layout: fixed;
+    margin: 0 auto;
+    background: white;
+    box-shadow:var(--sombra);
+}
+
+.tabla-tareas td, 
+.tabla-tareas th {
+    padding: 20px;
+    height: 40px;  
+    word-wrap: break-word;
+}
+
+.tabla-tareas th {
+    background: var(--colorprincipal);
+    color: var(--colorsecundario);
+    font-size: 1.5rem;
+}
+
+.tabla-tareas td {
+    border-bottom: var(--colorpanel);
+}
+
+.tabla-tareas tr:hover {
+    background:var(--colorsecundario);
+    color:  var(--colorprincipal);
+    font-weight: bold;
+}

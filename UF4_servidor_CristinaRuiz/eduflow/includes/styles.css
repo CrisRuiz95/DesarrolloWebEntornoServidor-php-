@@ -1,0 +1,209 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* CSS LOGIN */
+.content {
+ 
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0;
+}
+
+.contenedor_form {
+  position: relative;
+  width: 400px;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo-negrita {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.logo-cursiva {
+  font-family: "Brush Script MT", cursive;
+  font-size: 26px;
+}
+
+.boton-superior {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ddd;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.acceso {
+  margin-top: 120px;
+}
+
+.acceso h2 {
+  letter-spacing: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+/* Inicio CSS DASHBOARD */
+.logoEdu{
+    position: relative;
+    font-size: 24px; 
+}
+.logoEdu >.logo-negrita {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.logoEdu >.logo-negrita.logo-cursiva {
+  font-family: "Brush Script MT", cursive;
+  font-size: 36px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff6347; /* Color al pasar el ratón por encima */
+}
+.mensajeUser{
+    margin-top: 10px;
+}
+.headerEdu {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d3436;
+    color: white;
+}
+.section_admin{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+.section_admin a {
+  
+  margin-left: 30px;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: #dfe6e9;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.section_admin a:hover {
+  letter-spacing: 3px;
+  background-color: #2d3436;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #2d3436 0px 7px 29px 0px;
+}
+
+.section_admin a:active {
+  letter-spacing: 3px;
+  background-color:#2d3436;
+  color: hsl(0, 0%, 100%);
+  box-shadow:#2d3436 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+/* Fin CSS DASHBOARD */
+.campo {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campo label {
+  width: 90px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.campo input {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 200px;
+}
+
+.campo-boton {
+  margin-top: 20px;
+}
+
+.campo-boton button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 30px;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.campo-boton button:hover {
+  background: #2d3436;
+}
+.pie {
+    background-color: #2d3436;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.pie h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pie p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.pie a {
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.pie a:hover {
+    color: #ffffff; /* Cambia a blanco al pasar el ratón */
+}
+
+.legal {
+    margin-top: 20px;
+    font-size: 14px;
+}

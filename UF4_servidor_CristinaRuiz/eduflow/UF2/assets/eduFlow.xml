@@ -1,0 +1,167 @@
+<eduFlow>
+  <clases>
+    <clase id="1">
+      <asignatura>Programación Web</asignatura>
+      <profesor>Laura Gómez</profesor>
+      <dia>Lunes</dia>
+      <hora>09:00</hora>
+      <aula>101</aula>
+    </clase>
+    <clase id="2">
+      <asignatura>Bases de Datos</asignatura>
+      <profesor>Carlos Ruiz</profesor>
+      <dia>Lunes</dia>
+      <hora>11:00</hora>
+      <aula>202</aula>
+    </clase>
+    <clase id="3">
+      <asignatura>Redes de Computadoras</asignatura>
+      <profesor>Ana Torres</profesor>
+      <dia>Martes</dia>
+      <hora>09:00</hora>
+      <aula>203</aula>
+    </clase>
+    <clase id="4">
+      <asignatura>Sistemas Operativos</asignatura>
+      <profesor>David Fernández</profesor>
+      <dia>Martes</dia>
+      <hora>11:00</hora>
+      <aula>105</aula>
+    </clase>
+    <clase id="5">
+      <asignatura>Inteligencia Artificial</asignatura>
+      <profesor>María López</profesor>
+      <dia>Miércoles</dia>
+      <hora>09:00</hora>
+      <aula>301</aula>
+    </clase>
+    <clase id="6">
+      <asignatura>Diseño de Interfaces</asignatura>
+      <profesor>Javier Sánchez</profesor>
+      <dia>Miércoles</dia>
+      <hora>11:00</hora>
+      <aula>106</aula>
+    </clase>
+    <clase id="7">
+      <asignatura>Seguridad Informática</asignatura>
+      <profesor>Claudia Pérez</profesor>
+      <dia>Jueves</dia>
+      <hora>09:00</hora>
+      <aula>204</aula>
+    </clase>
+    <clase id="8">
+      <asignatura>Ingeniería de Software</asignatura>
+      <profesor>Fernando Martín</profesor>
+      <dia>Jueves</dia>
+      <hora>11:00</hora>
+      <aula>207</aula>
+    </clase>
+    <clase id="9">
+      <asignatura>Matemáticas Discretas</asignatura>
+      <profesor>Sofía Ramos</profesor>
+      <dia>Viernes</dia>
+      <hora>09:00</hora>
+      <aula>102</aula>
+    </clase>
+    <clase id="10">
+      <asignatura>Ética Profesional</asignatura>
+      <profesor>Luis Herrera</profesor>
+      <dia>Viernes</dia>
+      <hora>11:00</hora>
+      <aula>103</aula>
+    </clase>
+  </clases>
+
+  <tareas>
+    <tarea id="1">
+      <titulo>Proyecto PHP - Login</titulo>
+      <descripcion>Desarrollar un sistema de acceso con cookies</descripcion>
+      <fecha_entrega>2025-09-15</fecha_entrega>
+      <profesor>Laura Gómez</profesor>
+      <imagen>fichero_1.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Programación Web</asignatura>
+    </tarea>
+    <tarea id="2">
+      <titulo>Modelo ER</titulo>
+      <descripcion>Crear un modelo entidad-relación de una tienda online</descripcion>
+      <fecha_entrega>2025-09-20</fecha_entrega>
+      <profesor>Carlos Ruiz</profesor>
+      <imagen>fichero_2.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Bases de Datos</asignatura>
+    </tarea>
+    <tarea id="3">
+      <titulo>Práctica de enrutamiento</titulo>
+      <descripcion>Configurar protocolos de enrutamiento dinámico</descripcion>
+      <fecha_entrega>2025-09-18</fecha_entrega>
+      <profesor>Ana Torres</profesor>
+      <imagen>fichero_3.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Redes de Computadoras</asignatura>
+    </tarea>
+    <tarea id="4">
+      <titulo>Gestión de procesos</titulo>
+      <descripcion>Elaborar un informe sobre planificación de CPU</descripcion>
+      <fecha_entrega>2025-09-25</fecha_entrega>
+      <profesor>David Fernández</profesor>
+      <imagen>fichero_4.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Sistemas Operativos</asignatura>
+    </tarea>
+    <tarea id="5">
+      <titulo>Algoritmo de búsqueda A*</titulo>
+      <descripcion>Implementar un algoritmo A* en Python</descripcion>
+      <fecha_entrega>2025-09-16</fecha_entrega>
+      <profesor>María López</profesor>
+      <imagen>fichero_5.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Inteligencia Artificial</asignatura>
+    </tarea>
+    <tarea id="6">
+      <titulo>Wireframe de aplicación</titulo>
+      <descripcion>Diseñar un prototipo navegable de una app móvil</descripcion>
+      <fecha_entrega>2025-09-28</fecha_entrega>
+      <profesor>Javier Sánchez</profesor>
+      <imagen>fichero_6.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Diseño de Interfaces</asignatura>
+    </tarea>
+    <tarea id="7">
+      <titulo>Auditoría de seguridad</titulo>
+      <descripcion>Analizar vulnerabilidades en una red corporativa</descripcion>
+      <fecha_entrega>2025-09-17</fecha_entrega>
+      <profesor>Claudia Pérez</profesor>
+      <imagen>fichero_7.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Seguridad Informática</asignatura>
+    </tarea>
+    <tarea id="8">
+      <titulo>Diagrama de clases UML</titulo>
+      <descripcion>Modelar el sistema de gestión de biblioteca</descripcion>
+      <fecha_entrega>2025-09-26</fecha_entrega>
+      <profesor>Fernando Martín</profesor>
+      <imagen>fichero_8.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Ingeniería de Software</asignatura>
+    </tarea>
+    <tarea id="9">
+      <titulo>Problemas de grafos</titulo>
+      <descripcion>Resolver ejercicios de teoría de grafos</descripcion>
+      <fecha_entrega>2025-09-19</fecha_entrega>
+      <profesor>Sofía Ramos</profesor>
+      <imagen>fichero_9.png</imagen>
+      <urgente>si</urgente>
+      <asignatura>Matemáticas Discretas</asignatura>
+    </tarea>
+    <tarea id="10">
+      <titulo>Ensayo sobre ética digital</titulo>
+      <descripcion>Redactar un ensayo sobre el impacto de la IA en la sociedad</descripcion>
+      <fecha_entrega>2025-09-30</fecha_entrega>
+      <profesor>Luis Herrera</profesor>
+      <imagen>fichero_10.png</imagen>
+      <urgente>no</urgente>
+      <asignatura>Ética Profesional</asignatura>
+    </tarea>
+  </tareas>
+</eduFlow>
